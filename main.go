@@ -34,7 +34,7 @@ func main() {
 	fdata := files.Data{
 		User:    "maximo.ormeno@arysta.com",
 		Legacy:  false,
-		Workers: 5,
+		Workers: 30,
 	}
 
 	rbs := remote.NewRBS("https://alpha.cloner.cl:4000", "youarethebest")
